@@ -172,7 +172,7 @@
     "specific": {
         "basics": {
             "visaSponsorship": true,
-            "personalDescription": "When my mother told me that here on my city there was a highschool who teachs programming and electronics I got excited. \nMy career as a developer started there, on that highschool I learned a lot and meet the right people to advance on my career. \nAfter 5 years of university I feelt that I wasn't learning the things that I needed, so I droped the university and start working as a developer, that was the moment that I learned the most and today I keep learning everyday. "
+            "personalDescription": "When my mother told me that here on my city there was a highschool who teachs programming and electronics I got excited. \nMy career as a developer started there, on that highschool I learned a lot and meet the right people to advance on my career. \nAfter 5 years of university I feelt that I wasn't learning the things that I needed, so I dropped the college and started working as a developer, that was the moment I learned the most and today I keep learning everyday. "
         },
         "dreamJob": {
             "locations": [
@@ -184,14 +184,14 @@
             ],
             "remoteFrequency": "regularly",
             "perks": { "mood": true, "salary": true, "challenge": true, "work_hours": true, "others": "Relocation" },
-            "salary": "2500"
+            "salary": "(Monthly) 2500"
         },
         "currentJob": { "issues": { "boring_management": true, "boring_team": true, "location": true } },
         "education": { "studiesLevel": 3 },
         "work": {
             "contractTypes": ["permanent"],
             "codingYears": 8,
-            "codingReason": "I really like to solve problems and be part of big projects and at the end of the day, be proud of being part of a big impact project",
+            "codingReason": "I really like to solve problems and be part of big projects and at the end of the day, be proud of being part of something bigger",
             "searchState": "openOpportunities",
             "experienceYears": 0,
             "codeExperienceYears": 3.5,

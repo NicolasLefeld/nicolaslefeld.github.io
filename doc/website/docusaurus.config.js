@@ -5,7 +5,7 @@ module.exports = {
     title: 'React Ultimate Resume',
     tagline: 'Our vision for a clean looking and awesome react-powered dev resume.',
     url: 'https://welovedevs.com/app',
-    baseUrl: process.env.BASE_PATH || '/',
+    baseUrl: 'https://github.com/NicolasLefeld/resume',
     favicon: 'img/favicon.ico',
     organizationName: 'welovedevs', // Usually your GitHub org/user name.
     projectName: 'react-ultimate-resume', // Usually your repo name.
