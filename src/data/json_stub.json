@@ -1,54 +1,59 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
-        "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
-            }
-        ]
+        "name": "Nicolas Lefeld",
+        "label": "Backend Developer",
+        "picture": "https://media-exp1.licdn.com/dms/image/C4E03AQEjxbZnIxqmcg/profile-displayphoto-shrink_800_800/0/1614606063309?e=1628121600&v=beta&t=NtttDNhTUwduPYjMltdeESMWIpTAaZHXQVe21-zBxz4",
+        "email": "lefeldnicolas@gmail.com",
+        "phone": "(+54) 261-3159290",
+        "website": "https://nicolaslefeld.github.io",
+        "summary": "Problem solving skills, teamwork, passionate and fast learner!",
+        "location": { "city": "Mendoza", "countryCode": "ARG", "region": "Argentina", "name": "Mendoza, ARG" },
+        "profiles": [{ "network": "Twitter", "username": "john", "url": "http://twitter.com/john" }]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 0,
+            "id": "05fbb7cd-034e-47e7-8ec0-5e17a217299f",
+            "name": "Cognizant Softvision",
+            "position": "Backend developer",
+            "place": { "name": "Argentina" },
+            "startDate": "2021-02-01",
+            "summary": "Started on COX project, now im on Duke Energy",
+            "location": "Argentina",
+            "stillEmployed": true
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 1,
+            "id": "66dab572-1604-4bd4-9a7d-aa0aeb14a2a1",
+            "name": "Globant",
+            "position": "Backend developer",
+            "place": { "name": "Argentina" },
+            "startDate": "2020-08-01",
+            "endDate": "2021-02-01",
+            "summary": "With the development team, we were in charge of developing the backend of the self care platform for the customer of WOM.\nThe platform it's build with NodeJS+KOA\nhttps://fibra.wom.cl/",
+            "location": "Argentina"
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 2,
+            "id": "69f20eeb-ffa3-481f-a6ce-999bd868d969",
+            "name": "U7",
+            "position": "Backend developer",
+            "place": { "name": "Argentina" },
+            "endDate": "2020-08-01",
+            "startDate": "2019-12-01",
+            "summary": "I had the task to develop all the backend by myself.\nAt the beginning I started with \"The Serverless\" but the technologie wasnt mature enough, so I migrate from AWS Lambda to Express.\nAt the end, the backend was working with NodeJS+Express+MongoDB and for some specific endpoints, I implement other technologies like Stripe, Coinbase, DataDog, Docker, etc.",
+            "location": "Argentina"
+        },
+        {
+            "index": 3,
+            "id": "80a8b569-5fe2-419a-9ad7-ffc7de8c050a",
+            "name": "Fundacion Santa Maria",
+            "position": "FullStack developer",
+            "place": { "name": "Argentina" },
+            "endDate": "2019-12-01",
+            "startDate": "2018-08-01",
+            "summary": "As a full stack developer on the University, I was part of the IT department and we have the job of maintaining and develop new features on the internal platform.\nI was in charge of developing the student website, it was made with PHP 7, HTML, Jquery, AJAX, Bootstrap 4, etc.\nHere is the link of the platform: http://etramites.uch.edu.ar",
+            "location": "Argentina"
         }
     ],
     "volunteer": [
@@ -63,32 +68,23 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "position": 1,
+            "id": "a6aa6615-59c1-47f9-bf8f-1a292d680e3e",
+            "institution": "Universidad del Aconcagua",
+            "endDate": "2018-01-01",
+            "studyType": "Bachelor Degree",
+            "area": "Computer Science"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "position": 1,
+            "id": "527102b6-f23d-4eb8-9e0a-4584a4f2bf30",
+            "institution": "Universidad de Mendoza",
+            "studyType": "Engineer Degree ",
+            "area": "Computer Science",
+            "endDate": "2014-01-01"
         }
     ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
+    "awards": [{ "title": "Award", "date": "2014-11-01", "awarder": "Company", "summary": "There is no spoon." }],
     "publications": [
         {
             "name": "Publication",
@@ -100,70 +96,64 @@
     ],
     "skills": [
         {
-            "name": "React",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
             "name": "NodeJS",
             "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 90,
+            "keywords": ["HTML", "CSS", "Javascript"],
+            "index": 0,
+            "id": "16b86329-c6ac-4a35-be64-781419ac355a"
+        },
+        { "name": "Express", "index": 1, "value": 90, "id": "cf8eba9f-ebf3-4171-a42d-8151813b4534" },
+        { "name": "MongoDB", "index": 2, "value": 70, "id": "0eae5656-496d-4654-8c3e-12380ad33044" },
+        {
+            "name": "React",
+            "level": "Master",
+            "value": 25,
+            "keywords": ["HTML", "CSS", "Javascript"],
+            "index": 3,
+            "id": "b6007624-61b9-4c11-bc77-6f81175d8279"
+        },
+        { "name": "Amazon Web Services", "index": 4, "value": 60, "id": "f33f313d-df64-43b9-8b26-92d87e7933c4" },
+        { "name": "Docker", "index": 5, "value": 75, "id": "32e94529-fdd4-466f-a770-f9f31ec820d3" },
+        { "name": "Git", "index": 6, "value": 85, "id": "a47969af-b178-4424-9e67-7fb79d9b37fb" },
+        { "name": "Jest", "index": 7, "value": 50, "id": "04872930-e0ef-4e7c-b6cd-fc68d4a9881f" },
+        { "name": "Linux System", "index": 8, "value": 70, "id": "06ca3aab-a9ec-47b2-a619-657d5acde65c" },
+        { "name": "Mysql", "index": 9, "value": 50, "id": "81c70b6b-8edc-49bc-a086-754ce88881a1" }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "value": 100,
+            "fluency": "Native speaker",
+            "id": "f03024ca-cb68-4f32-aab2-4a7818ce0873",
+            "index": 0
         },
         {
-            "name": "Firebase",
-            "level": "Master",
+            "language": "English",
             "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "fluency": "Native speaker",
+            "id": "e1e828a1-44fc-489d-b342-428ba9a116e9",
+            "index": 1
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }, { "language": "Italien", "value": 15, "fluency": "Native speaker" } ],
     "interests": [
         {
-            "name": "France europe gif by nike football",
-            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-            "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
-                "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
+            "index": 0,
+            "id": "e13d4080-f9a2-4ba2-871f-abe8161e239c",
+            "gifUrl": "https://media.giphy.com/media/3ov9k0do6E2muYKXBe/giphy.gif",
+            "name": "MTB Enduro"
         },
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "index": 1,
+            "id": "0c41e3c7-c1b2-4ade-a599-91b81938c58f",
+            "gifUrl": "https://media.giphy.com/media/3oKIPqsXYcdjcBcXL2/giphy.gif",
+            "name": "DIY Work"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "index": 2,
+            "id": "8418028c-096c-40fe-8a7b-1f48623650ea",
+            "gifUrl": "https://media.giphy.com/media/Mj0gk1wnekXC0/giphy.gif",
+            "name": "Anime Fan"
         }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
@@ -177,119 +167,91 @@
             "link": "https://lovely-movie.netlify.app/",
             "name": "Lovely Movie",
             "endDate": "2019-12-01"
-        },
-        {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
-        },
-        {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-            "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
-        },
-        {
-            "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
-            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
         }
     ],
     "specific": {
         "basics": {
             "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "When my mother told me that here on my city there was a highschool who teachs programming and electronics I got excited. \nMy career as a developer started there, on that highschool I learned a lot and meet the right people to advance on my career. \nAfter 5 years of university I feelt that I wasn't learning the things that I needed, so I droped the university and start working as a developer, that was the moment that I learned the most and today I keep learning everyday. "
         },
         "dreamJob": {
             "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" }
+                { "name": "New Zeland", "id": "09aba38a-1513-4fb4-a502-034ae63832f0", "index": 0 },
+                { "name": "Barcelona", "id": "bae7f186-c775-46dc-9ed0-15dc847ea3d9", "index": 1 },
+                { "name": "Poland", "id": "f908eadb-71a6-454a-bfbb-5c6919d155c2" },
+                { "name": "Australia", "id": "a29dbee9-81fd-4fcc-b6d9-fdba5764876e" },
+                { "name": "Sweden", "id": "e3338298-a99f-45f8-8ba1-42338e091391" }
             ],
-            "remoteFrequency": "regularly"
+            "remoteFrequency": "regularly",
+            "perks": { "mood": true, "salary": true, "challenge": true, "work_hours": true, "others": "Relocation" },
+            "salary": "2500"
         },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
-        },
-        "education": { "studiesLevel": 5 },
+        "currentJob": { "issues": { "boring_management": true, "boring_team": true, "location": true } },
+        "education": { "studiesLevel": 3 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
+            "codingYears": 8,
+            "codingReason": "I really like to solve problems and be part of big projects and at the end of the day, be proud of being part of a big impact project",
+            "searchState": "openOpportunities",
             "experienceYears": 0,
-            "codeExperienceYears": 1,
-            "otherExperienceYears": 1
-        },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "codeExperienceYears": 3.5,
+            "otherExperienceYears": 7
         },
         "interestedBy": "Angular, la blochain et les chatons."
     },
     "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
+        "imageHeader": { "url": "https://wallpaperaccess.com/full/1338370.jpg", "alt": "Default Banner" },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
+            { "type": "skills", "variant": 1 },
+            { "type": "experiences", "variant": 2 },
+            { "type": "dreamjob", "variant": 3 },
             { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
             { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
+            { "type": "gifs", "variant": 0 }
         ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+        "fields": { "work": { "customDateFormat": "YYYY" } },
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#ede7ec",
+                    "100": "#dbced8",
+                    "200": "#b69db1",
+                    "300": "#926c8b",
+                    "400": "#6d3b64",
+                    "500": "#490a3d",
+                    "600": "#3a0831",
+                    "700": "#2c0625",
+                    "800": "#1d0418",
+                    "900": "#0f020c",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#f8e8ee",
+                    "100": "#f2d0dc",
+                    "200": "#e5a1b9",
+                    "300": "#d77396",
+                    "400": "#ca4473",
+                    "500": "#bd1550",
+                    "600": "#971140",
+                    "700": "#710d30",
+                    "800": "#4c0820",
+                    "900": "#260410",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#fdf2e6",
+                    "100": "#fbe5cc",
+                    "200": "#f6cc9a",
+                    "300": "#f2b267",
+                    "400": "#ed9935",
+                    "500": "#e97f02",
+                    "600": "#ba6602",
+                    "700": "#8c4c01",
+                    "800": "#5d3301",
+                    "900": "#2f1900",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }

@@ -1,4 +1,5 @@
 {
+    "homepage": "https://NicolasLefeld.github.io/nicolaslefeld.github.io",
     "name": "@welovedevs/react-ultimate-resume",
     "version": "1.1.6",
     "description": "Developer profile for W3D",
@@ -19,7 +20,9 @@
         "manage:translations": "node ./translationRunner.js",
         "gh-deploy": "yarn build && gh-pages -d build",
         "version:beta": "npm version prerelease --preid=beta",
-        "version:release": "npm version ${VERSION:-patch}"
+        "version:release": "npm version ${VERSION:-patch}",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "repository": {
         "type": "git",

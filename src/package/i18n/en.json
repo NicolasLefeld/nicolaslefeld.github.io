@@ -266,7 +266,7 @@
   "Studies.front.noEducation": "You do not have any study yet !",
   "Studies.noEducation.buttonLabel": "Add a study",
   "Studies.noEducation.title": "Add here studies you have done !",
-  "Studies.title": "I graduated from {schoolName}",
+  "Studies.title": "I attended the {schoolName}",
   "URLFailover.title": "Enter an URL",
   "Unsplash.SearchDialog.Title": "Search pictures from unsplash",
   "Unsplash.brandName": "Unsplash",
