@@ -5,28 +5,16 @@
     "description": "Developer profile for W3D",
     "main": "lib/index.js",
     "scripts": {
-        "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",
-        "dev": "yarn start",
-        "eject": "react-scripts eject",
-        "test": "react-scripts test",
-        "prepackage": "rimraf lib ",
-        "package": "./node_modules/.bin/babel --extensions '.ts,.tsx,.js,.jsx' src/package -d .",
-        "postpackage": "cp-cli src/package/i18n i18n && cp-cli src/package/assets assets",
-        "test-build": "rimraf ./test-build && ./node_modules/.bin/babel --extensions '.ts,.tsx,.js,.jsx' src -d ./test_build",
-        "posttest-build": "rimraf ./test_build ./styles ",
-        "build": "react-scripts build",
-        "build:messages": "NODE_ENV=production babel ./src >/dev/null",
-        "serve": "react-scripts build && serve build",
-        "manage:translations": "node ./translationRunner.js",
-        "gh-deploy": "yarn build && gh-pages -d build",
-        "version:beta": "npm version prerelease --preid=beta",
-        "version:release": "npm version ${VERSION:-patch}",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/welovedevs/react-ultimate-resume.git"
+        "url": ""
     },
     "author": "WeLoveDevs.com",
     "license": "AGPLv3",
@@ -105,7 +93,6 @@
         "eslint-plugin-react": "^7.21.5",
         "eslint-plugin-react-hooks": "^4.2.0",
         "gh-pages": "^2.2.0",
-        "husky": "^3.1.0",
         "lint-staged": "^10.0.8",
         "ora": "^4.0.3",
         "prettier": "2.0.2",
@@ -136,11 +123,6 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run test-build --scripts-prepend-node-path && CI=true yarn test && lint-staged"
-        }
     },
     "lint-staged": {
         "*.+(js|jsx|scss)": [
